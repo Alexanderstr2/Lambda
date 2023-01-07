@@ -1,9 +1,11 @@
-# RentalWebScrape
+# Lambda
 
 ## About
 The goal of this project is to create a webscraper to pull listing from rental websites. This data is untilized for political campaign planning to
 determine what houses to visit for door knocking if the previous occupants have moved. For now we will be pulling listings from rentfaster, but this is
 expected to expand into the future.
+
+Code originally adopted from (this)[https://rpubs.com/calebbraun/rentfaster] R project
 
 ## Roadmap
 
@@ -23,3 +25,6 @@ Version 3 will introduce a Web Interface for the scraper to make it more accessa
 Version 4 will introduce the option to be offered as a SaaS to search listings and offer other benifical campaign planning solutions and integrations
 
 For more information read the whitepaper here!
+
+## Disclaimer
+Only webscrape with premission from the website owner. Running this script and/or program may violate terms and conditions of websites, code is provided for educational purposes only. The uses takes al responsibility over ensuring their use of this tool complies with website terms and all applicable laws and regulations.
