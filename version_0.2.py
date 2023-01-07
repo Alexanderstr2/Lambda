@@ -1,6 +1,4 @@
 # Imports
-import pandas as pd
-import geopandas
 import requests
 import json
 import csv
