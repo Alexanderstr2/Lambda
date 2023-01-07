@@ -6,8 +6,6 @@ import csv
 
 #Global Varibles
 rentFasterURL = "https://www.rentfaster.ca/api/map.json?e=undefined&beds=&baths=&type=&price_range_adv%5Bfrom%5D=&price_range_adv%5Bto%5D=&area="
-riddings = ['elbow','test','this','atest','test']
-riddingsUsed = []
 csvFilePath = '/Users/alexanderstratmoen/Documents'
 csvFileName = 'datafile'
 
@@ -26,8 +24,6 @@ def settings():
     global longRight
     global latLeft
     global latRight
-    global riddings
-    global riddingsUsed
     global csvFilePath
     global csvFileName
 
@@ -37,38 +33,23 @@ def settings():
         print("Settings")
         print("----------------------------------------------")
         print("Enter option #:")
-        print("1) Specify ridings to search")
-        print("2) Specify area to pull from")
-        print("3) Edit CSV File Path")
-        print("4) Advanced")
-        print("5) Exit")
+        print("1) Specify area to pull from")
+        print("2) Edit CSV File Path")
+        print("3) Advanced")
+        print("4) Exit")
         setting_in = input()
         if setting_in == '1':
-            print("Select Ridings")
-            print("----------------------------------------------")
-            count = 1
-            for ridding in riddings:
-                print(ridding)
-                count += 1
-            riddingRaw = input ("Enter ridding #'s seperated by ',': ")
-
-            # Parse in
-            riddingsUsed = riddingRaw.split(",")
-            print(riddingsUsed)
-
-
-        elif setting_in == '2':
             print("To change bounding box for listings enter bounds for Longitude and Latitude:")
             longLeft = input("Enter Longitude Left Bound: ")
             longRight = input("Enter Longitude Right Bound: ")
             latLeft = input("Enter Latitude Left Bound: ")
             latRight = input("Enter Latitude Right Bound: ")
 
-        elif setting_in == '3':
+        elif setting_in == '2':
             csvFilePath = input("Enter Path: ")
             csvFileName = input("Enter File Name: ")
 
-        elif setting_in == '4':
+        elif setting_in == '3':
             while True:
                 print("Advanced Settings")
                 print("----------------------------------------------")
@@ -86,7 +67,7 @@ def settings():
                 else:
                     print("Invalid Input")
 
-        elif setting_in == '5':
+        elif setting_in == '4':
             return
         else:
             print("Invalid Input")
@@ -97,8 +78,6 @@ def webScrape():
     global longRight
     global latLeft
     global latRight
-    global riddings
-    global riddingsUsed
     global csvFilePath
     global csvFileName
 
