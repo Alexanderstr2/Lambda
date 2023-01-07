@@ -1,7 +1,7 @@
 # Lambda
 
 ## About
-In political campaigns data is becoming an ever important resource. When planning door knocking campaigns to talk with residents a database is untilized to store address and home owner information. This allows the orginizers to tier homes and ensure time is not wasted bothering residents who do not want to support the campaign. However when these residents move, this information is not updated and they can remain "tiered out". The goal for this project is to demonstrate a potential solution for this problem. Rental (and housing sale) information on homes in specific areas is gathered from websites. This information can then be used to update stistical models to reflect the real world situation more accuratly. For now we will simply be pulling rental listings from rentfaster, but this is expected to expand into the future to also include home sales.
+This project is designed to demonstrate a simple and easy way to gether rental (and housing sale) information on homes in specific areas for statistical models. For now we will simply be pulling rental listings from rentfaster, but this is expected to expand into the future to also include home sales.
 
 Scraping methodology for Rent Faster originally adopted from [this](https://rpubs.com/calebbraun/rentfaster) R project.
 
@@ -11,7 +11,7 @@ Scraping methodology for Rent Faster originally adopted from [this](https://rpub
 Version 0 will scape data from RentFaster to be export addresses in a targeted search area to a CSV file using a python script
 
 **Version 1**
-Version 1 will integrate more functionality including the ability to specific more peramters and be offered in a command line tool package
+Version 1 will integrate more functionality including the ability to specific more peramters, including within shapefiles and be offered in a command line tool package.
 
 **Version 2**
 Version 2 will expand on version 1 to include the ability to search through multiple sites
@@ -20,7 +20,7 @@ Version 2 will expand on version 1 to include the ability to search through mult
 Version 3 will introduce a Web Interface for the scraper to make it more accessable and easy to use
 
 **Version 4**
-Version 4 will introduce the option to be offered as a SaaS to search listings and offer other benifical campaign planning solutions and integrations
+Version 4 will introduce the ability to integrate directly with data gathering and processing tools.
 
 ## Disclaimer
 Only webscrape with premission from the website owner. Running this script and/or program may violate terms and conditions of websites, code is provided for educational purposes only. The uses takes al responsibility over ensuring their use of this tool complies with website terms and all applicable laws and regulations.
