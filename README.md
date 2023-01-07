@@ -1,11 +1,9 @@
 # Lambda
 
 ## About
-The goal of this project is to create a webscraper to pull listing from rental websites. This data is untilized for political campaign planning to
-determine what houses to visit for door knocking if the previous occupants have moved. For now we will be pulling listings from rentfaster, but this is
-expected to expand into the future.
+In political campaigns data is becoming an ever important resource. When planning door knocking campaigns to talk with residents a database is untilized to store address and home owner information. This allows the orginizers to tier homes and ensure time is not wasted bothering residents who do not want to support the campaign. However when this residents move this information is not updated and them can remain "tiered out". The goal for this project is to demonstrate a potential solution for this problem. Rental (and housing sale) information is gathered from websites on homes in specific areas. This information can then be used to update stistical models to reflect the world more accuratly. For now we will be pulling simply rental listings from rentfaster, but this is expected to expand into the future to also include home sales.
 
-Code originally adopted from (this)[https://rpubs.com/calebbraun/rentfaster] R project
+Scraping methodology for Rent Faster originally adopted from [this](https://rpubs.com/calebbraun/rentfaster) R project.
 
 ## Roadmap
 
