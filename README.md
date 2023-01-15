@@ -23,4 +23,4 @@ Version 3 will introduce a Web Interface for the scraper to make it more accessa
 Version 4 will introduce the ability to integrate directly with data gathering and processing tools.
 
 ## Disclaimer
-Only webscrape with premission from the website owner. Running this script and/or program may violate terms and conditions of websites, code is provided for educational purposes only. The uses takes al responsibility over ensuring their use of this tool complies with website terms and all applicable laws and regulations.
+Only webscrape with premission from the website owner. Running this script and/or program may violate terms and conditions of websites, code is provided for educational purposes only. The uses takes all responsibility over ensuring their use of this tool complies with website terms and all applicable laws and regulations.
